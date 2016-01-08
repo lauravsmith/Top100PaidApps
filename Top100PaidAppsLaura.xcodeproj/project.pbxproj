@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47ED7D411C3DD8E400B1A9C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED7D401C3DD8E400B1A9C5 /* main.m */; };
+		47ED7D441C3DD8E400B1A9C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED7D431C3DD8E400B1A9C5 /* AppDelegate.m */; };
+		47ED7D471C3DD8E400B1A9C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED7D461C3DD8E400B1A9C5 /* ViewController.m */; };
+		47ED7D4A1C3DD8E400B1A9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ED7D481C3DD8E400B1A9C5 /* Main.storyboard */; };
+		47ED7D4D1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47ED7D4B1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.xcdatamodeld */; };
+		47ED7D4F1C3DD8E400B1A9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47ED7D4E1C3DD8E400B1A9C5 /* Assets.xcassets */; };
+		47ED7D521C3DD8E400B1A9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47ED7D501C3DD8E400B1A9C5 /* LaunchScreen.storyboard */; };
+		47ED7D5D1C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED7D5C1C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests.m */; };
+		47ED7D681C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED7D671C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests.m */; };
+		47ED7D771C3DE17900B1A9C5 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED7D761C3DE17900B1A9C5 /* DataController.m */; };
+		47ED7D7A1C3F527F00B1A9C5 /* AppCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 47ED7D791C3F527F00B1A9C5 /* AppCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47ED7D591C3DD8E500B1A9C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47ED7D341C3DD8E400B1A9C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47ED7D3B1C3DD8E400B1A9C5;
+			remoteInfo = Top100PaidAppsLaura;
+		};
+		47ED7D641C3DD8E500B1A9C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47ED7D341C3DD8E400B1A9C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47ED7D3B1C3DD8E400B1A9C5;
+			remoteInfo = Top100PaidAppsLaura;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47ED7D3C1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Top100PaidAppsLaura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ED7D401C3DD8E400B1A9C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47ED7D421C3DD8E400B1A9C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47ED7D431C3DD8E400B1A9C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47ED7D451C3DD8E400B1A9C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47ED7D461C3DD8E400B1A9C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47ED7D491C3DD8E400B1A9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47ED7D4C1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Top100PaidAppsLaura.xcdatamodel; sourceTree = "<group>"; };
+		47ED7D4E1C3DD8E400B1A9C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47ED7D511C3DD8E400B1A9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47ED7D531C3DD8E500B1A9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47ED7D581C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Top100PaidAppsLauraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ED7D5C1C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Top100PaidAppsLauraTests.m; sourceTree = "<group>"; };
+		47ED7D5E1C3DD8E500B1A9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47ED7D631C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Top100PaidAppsLauraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ED7D671C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Top100PaidAppsLauraUITests.m; sourceTree = "<group>"; };
+		47ED7D691C3DD8E500B1A9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47ED7D751C3DE17900B1A9C5 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		47ED7D761C3DE17900B1A9C5 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		47ED7D781C3F527F00B1A9C5 /* AppCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCategory.h; sourceTree = "<group>"; };
+		47ED7D791C3F527F00B1A9C5 /* AppCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCategory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47ED7D391C3DD8E400B1A9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ED7D551C3DD8E500B1A9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ED7D601C3DD8E500B1A9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47ED7D331C3DD8E400B1A9C5 = {
+			isa = PBXGroup;
+			children = (
+				47ED7D3E1C3DD8E400B1A9C5 /* Top100PaidAppsLaura */,
+				47ED7D5B1C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests */,
+				47ED7D661C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests */,
+				47ED7D3D1C3DD8E400B1A9C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47ED7D3D1C3DD8E400B1A9C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47ED7D3C1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.app */,
+				47ED7D581C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests.xctest */,
+				47ED7D631C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47ED7D3E1C3DD8E400B1A9C5 /* Top100PaidAppsLaura */ = {
+			isa = PBXGroup;
+			children = (
+				47ED7D421C3DD8E400B1A9C5 /* AppDelegate.h */,
+				47ED7D431C3DD8E400B1A9C5 /* AppDelegate.m */,
+				47ED7D751C3DE17900B1A9C5 /* DataController.h */,
+				47ED7D761C3DE17900B1A9C5 /* DataController.m */,
+				47ED7D451C3DD8E400B1A9C5 /* ViewController.h */,
+				47ED7D461C3DD8E400B1A9C5 /* ViewController.m */,
+				47ED7D481C3DD8E400B1A9C5 /* Main.storyboard */,
+				47ED7D781C3F527F00B1A9C5 /* AppCategory.h */,
+				47ED7D791C3F527F00B1A9C5 /* AppCategory.m */,
+				47ED7D4E1C3DD8E400B1A9C5 /* Assets.xcassets */,
+				47ED7D501C3DD8E400B1A9C5 /* LaunchScreen.storyboard */,
+				47ED7D531C3DD8E500B1A9C5 /* Info.plist */,
+				47ED7D4B1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.xcdatamodeld */,
+				47ED7D3F1C3DD8E400B1A9C5 /* Supporting Files */,
+			);
+			path = Top100PaidAppsLaura;
+			sourceTree = "<group>";
+		};
+		47ED7D3F1C3DD8E400B1A9C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47ED7D401C3DD8E400B1A9C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47ED7D5B1C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests */ = {
+			isa = PBXGroup;
+			children = (
+				47ED7D5C1C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests.m */,
+				47ED7D5E1C3DD8E500B1A9C5 /* Info.plist */,
+			);
+			path = Top100PaidAppsLauraTests;
+			sourceTree = "<group>";
+		};
+		47ED7D661C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47ED7D671C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests.m */,
+				47ED7D691C3DD8E500B1A9C5 /* Info.plist */,
+			);
+			path = Top100PaidAppsLauraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47ED7D3B1C3DD8E400B1A9C5 /* Top100PaidAppsLaura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47ED7D6C1C3DD8E500B1A9C5 /* Build configuration list for PBXNativeTarget "Top100PaidAppsLaura" */;
+			buildPhases = (
+				47ED7D381C3DD8E400B1A9C5 /* Sources */,
+				47ED7D391C3DD8E400B1A9C5 /* Frameworks */,
+				47ED7D3A1C3DD8E400B1A9C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Top100PaidAppsLaura;
+			productName = Top100PaidAppsLaura;
+			productReference = 47ED7D3C1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47ED7D571C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47ED7D6F1C3DD8E500B1A9C5 /* Build configuration list for PBXNativeTarget "Top100PaidAppsLauraTests" */;
+			buildPhases = (
+				47ED7D541C3DD8E500B1A9C5 /* Sources */,
+				47ED7D551C3DD8E500B1A9C5 /* Frameworks */,
+				47ED7D561C3DD8E500B1A9C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47ED7D5A1C3DD8E500B1A9C5 /* PBXTargetDependency */,
+			);
+			name = Top100PaidAppsLauraTests;
+			productName = Top100PaidAppsLauraTests;
+			productReference = 47ED7D581C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47ED7D621C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47ED7D721C3DD8E500B1A9C5 /* Build configuration list for PBXNativeTarget "Top100PaidAppsLauraUITests" */;
+			buildPhases = (
+				47ED7D5F1C3DD8E500B1A9C5 /* Sources */,
+				47ED7D601C3DD8E500B1A9C5 /* Frameworks */,
+				47ED7D611C3DD8E500B1A9C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47ED7D651C3DD8E500B1A9C5 /* PBXTargetDependency */,
+			);
+			name = Top100PaidAppsLauraUITests;
+			productName = Top100PaidAppsLauraUITests;
+			productReference = 47ED7D631C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47ED7D341C3DD8E400B1A9C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Laura Smith";
+				TargetAttributes = {
+					47ED7D3B1C3DD8E400B1A9C5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					47ED7D571C3DD8E500B1A9C5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 47ED7D3B1C3DD8E400B1A9C5;
+					};
+					47ED7D621C3DD8E500B1A9C5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 47ED7D3B1C3DD8E400B1A9C5;
+					};
+				};
+			};
+			buildConfigurationList = 47ED7D371C3DD8E400B1A9C5 /* Build configuration list for PBXProject "Top100PaidAppsLaura" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47ED7D331C3DD8E400B1A9C5;
+			productRefGroup = 47ED7D3D1C3DD8E400B1A9C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47ED7D3B1C3DD8E400B1A9C5 /* Top100PaidAppsLaura */,
+				47ED7D571C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests */,
+				47ED7D621C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47ED7D3A1C3DD8E400B1A9C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ED7D521C3DD8E400B1A9C5 /* LaunchScreen.storyboard in Resources */,
+				47ED7D4F1C3DD8E400B1A9C5 /* Assets.xcassets in Resources */,
+				47ED7D4A1C3DD8E400B1A9C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ED7D561C3DD8E500B1A9C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ED7D611C3DD8E500B1A9C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47ED7D381C3DD8E400B1A9C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ED7D471C3DD8E400B1A9C5 /* ViewController.m in Sources */,
+				47ED7D7A1C3F527F00B1A9C5 /* AppCategory.m in Sources */,
+				47ED7D441C3DD8E400B1A9C5 /* AppDelegate.m in Sources */,
+				47ED7D4D1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.xcdatamodeld in Sources */,
+				47ED7D771C3DE17900B1A9C5 /* DataController.m in Sources */,
+				47ED7D411C3DD8E400B1A9C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ED7D541C3DD8E500B1A9C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ED7D5D1C3DD8E500B1A9C5 /* Top100PaidAppsLauraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ED7D5F1C3DD8E500B1A9C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ED7D681C3DD8E500B1A9C5 /* Top100PaidAppsLauraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47ED7D5A1C3DD8E500B1A9C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47ED7D3B1C3DD8E400B1A9C5 /* Top100PaidAppsLaura */;
+			targetProxy = 47ED7D591C3DD8E500B1A9C5 /* PBXContainerItemProxy */;
+		};
+		47ED7D651C3DD8E500B1A9C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47ED7D3B1C3DD8E400B1A9C5 /* Top100PaidAppsLaura */;
+			targetProxy = 47ED7D641C3DD8E500B1A9C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47ED7D481C3DD8E400B1A9C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47ED7D491C3DD8E400B1A9C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47ED7D501C3DD8E400B1A9C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47ED7D511C3DD8E400B1A9C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47ED7D6A1C3DD8E500B1A9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47ED7D6B1C3DD8E500B1A9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47ED7D6D1C3DD8E500B1A9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Top100PaidAppsLaura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.Top100PaidAppsLaura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47ED7D6E1C3DD8E500B1A9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Top100PaidAppsLaura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.Top100PaidAppsLaura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47ED7D701C3DD8E500B1A9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Top100PaidAppsLauraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.Top100PaidAppsLauraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top100PaidAppsLaura.app/Top100PaidAppsLaura";
+			};
+			name = Debug;
+		};
+		47ED7D711C3DD8E500B1A9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Top100PaidAppsLauraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.Top100PaidAppsLauraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top100PaidAppsLaura.app/Top100PaidAppsLaura";
+			};
+			name = Release;
+		};
+		47ED7D731C3DD8E500B1A9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Top100PaidAppsLauraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.Top100PaidAppsLauraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Top100PaidAppsLaura;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		47ED7D741C3DD8E500B1A9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Top100PaidAppsLauraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.Top100PaidAppsLauraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Top100PaidAppsLaura;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47ED7D371C3DD8E400B1A9C5 /* Build configuration list for PBXProject "Top100PaidAppsLaura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ED7D6A1C3DD8E500B1A9C5 /* Debug */,
+				47ED7D6B1C3DD8E500B1A9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47ED7D6C1C3DD8E500B1A9C5 /* Build configuration list for PBXNativeTarget "Top100PaidAppsLaura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ED7D6D1C3DD8E500B1A9C5 /* Debug */,
+				47ED7D6E1C3DD8E500B1A9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47ED7D6F1C3DD8E500B1A9C5 /* Build configuration list for PBXNativeTarget "Top100PaidAppsLauraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ED7D701C3DD8E500B1A9C5 /* Debug */,
+				47ED7D711C3DD8E500B1A9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47ED7D721C3DD8E500B1A9C5 /* Build configuration list for PBXNativeTarget "Top100PaidAppsLauraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47ED7D731C3DD8E500B1A9C5 /* Debug */,
+				47ED7D741C3DD8E500B1A9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47ED7D4B1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47ED7D4C1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.xcdatamodel */,
+			);
+			currentVersion = 47ED7D4C1C3DD8E400B1A9C5 /* Top100PaidAppsLaura.xcdatamodel */;
+			path = Top100PaidAppsLaura.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47ED7D341C3DD8E400B1A9C5 /* Project object */;
+}
